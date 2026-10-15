@@ -1,0 +1,20 @@
+.pio/build/esp32-s3-devkitc-1-myboard/FrameworkArduino/MD5Builder.cpp.o: \
+ /home/john/.platformio/packages/framework-arduinoespressif32/cores/esp32/MD5Builder.cpp \
+ /home/john/.platformio/packages/framework-arduinoespressif32/cores/esp32/HEXBuilder.h \
+ /home/john/.platformio/packages/framework-arduinoespressif32/cores/esp32/WString.h \
+ /home/john/.platformio/packages/framework-arduinoespressif32/cores/esp32/pgmspace.h \
+ /home/john/.platformio/packages/framework-arduinoespressif32-libs/esp32s3/include/newlib/platform_include/ctype.h \
+ /home/john/.platformio/packages/framework-arduinoespressif32/cores/esp32/Stream.h \
+ /home/john/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
+ /home/john/.platformio/packages/framework-arduinoespressif32-libs/esp32s3/include/newlib/platform_include/stdio.h \
+ /home/john/.platformio/packages/framework-arduinoespressif32/cores/esp32/WString.h \
+ /home/john/.platformio/packages/framework-arduinoespressif32/cores/esp32/Printable.h \
+ /home/john/.platformio/packages/framework-arduinoespressif32/cores/esp32/MD5Builder.h \
+ /home/john/.platformio/packages/framework-arduinoespressif32-libs/esp32s3/include/esp_system/include/esp_system.h \
+ /home/john/.platformio/packages/framework-arduinoespressif32-libs/esp32s3/include/esp_common/include/esp_err.h \
+ /home/john/.platformio/packages/framework-arduinoespressif32-libs/esp32s3/include/esp_common/include/esp_compiler.h \
+ /home/john/.platformio/packages/framework-arduinoespressif32-libs/esp32s3/include/esp_common/include/esp_attr.h \
+ /home/john/.platformio/packages/framework-arduinoespressif32-libs/esp32s3/include/esp_common/include/esp_bit_defs.h \
+ /home/john/.platformio/packages/framework-arduinoespressif32-libs/esp32s3/include/esp_common/include/esp_idf_version.h \
+ /home/john/.platformio/packages/framework-arduinoespressif32-libs/esp32s3/include/esp_rom/include/esp_rom_md5.h \
+ /home/john/.platformio/packages/framework-arduinoespressif32/cores/esp32/HashBuilder.h

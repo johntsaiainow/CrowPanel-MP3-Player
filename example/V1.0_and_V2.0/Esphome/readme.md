@@ -1,1 +1,0 @@
-### Here is a case study of the esphome platform, for actual use please refer to the wiki link for instructions.

@@ -1,0 +1,22 @@
+.pio/build/esp32-s3-devkitc-1-myboard/libac6/lvgl/misc/cache/lv_cache.c.o: \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/lv_cache.c \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/lv_cache.h \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/lv_cache_entry.h \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/../../osal/lv_os.h \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/../../osal/../lv_conf_internal.h \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/../../osal/../misc/lv_types.h \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/../../osal/../misc/../lv_conf_internal.h \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/../../osal/lv_os_none.h \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/../lv_types.h \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/lv_cache_private.h \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/_lv_cache_lru_rb.h \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/lv_image_cache.h \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/../../stdlib/lv_sprintf.h \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/../lv_assert.h \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/../../lv_conf_internal.h \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/../lv_log.h \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/../lv_types.h \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/../../stdlib/lv_mem.h \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/../../stdlib/../lv_conf_internal.h \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/../../stdlib/../misc/lv_types.h \
+ .pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src/misc/cache/lv_cache_entry_private.h
