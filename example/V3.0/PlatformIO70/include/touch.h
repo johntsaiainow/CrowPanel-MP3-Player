@@ -154,23 +154,34 @@ bool touch_touched()
 {
     static uint32_t last_sample = 0;
     const uint32_t now = millis();
-    if(now - last_sample < 30) return touch_is_pressed;
+    if(now - last_sample < 20) return touch_is_pressed;
     last_sample = now;
 
     uint8_t status = 0;
-    if(!gt911_read(GT911_POINT_INFO, &status, 1)) return touch_is_pressed;
-    if((status & 0x80) == 0) return touch_is_pressed;
+    if(!gt911_read(GT911_POINT_INFO, &status, 1)) {
+        touch_is_pressed = false;
+        return false;
+    }
+
+    if((status & 0x80) == 0) {
+        touch_is_pressed = false;
+        return false;
+    }
 
     const uint8_t point_count = status & 0x0F;
-    touch_is_pressed = point_count > 0 && point_count <= 5;
-    if(touch_is_pressed) {
+    if(point_count > 0 && point_count <= 5) {
         uint8_t point[7];
         if(gt911_read(GT911_FIRST_POINT, point, sizeof(point))) {
             const uint16_t raw_x = point[1] | (static_cast<uint16_t>(point[2]) << 8);
             const uint16_t raw_y = point[3] | (static_cast<uint16_t>(point[4]) << 8);
             touch_last_x = constrain(raw_x, 0, lcd.width() - 1);
             touch_last_y = constrain(raw_y, 0, lcd.height() - 1);
+            touch_is_pressed = true;
+        } else {
+            touch_is_pressed = false;
         }
+    } else {
+        touch_is_pressed = false;
     }
 
     gt911_clear_status();
